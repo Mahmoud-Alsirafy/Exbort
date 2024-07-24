@@ -1,0 +1,132 @@
+.header {
+    height: 50vh;
+    display: flex;
+    background-color: #eee;
+    margin: 100px 0;
+}
+
+.header-but {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.header button:hover {
+    color: var(--main-color);
+}
+
+.head-left-men {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center !important;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #fff;
+    background-image: linear-gradient(rgba(20, 20, 20, 0.7), rgba(20, 20, 20, 0.7)), url(../img/carousel-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.head-left-woman {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center !important;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #fff;
+    background-image: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5)), url(../img/carousel-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.head-left-kids {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center !important;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #fff;
+    background-image: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5)), url(../img/carousel-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.head-left div p {
+    width: 60%;
+    margin:auto  !important;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+
+}
+
+.slide-title {
+    margin-top: 100px;
+}
+
+@media ( max-width :768px) {
+    .head-left div p {
+        margin:auto !important;
+    }
+
+    .head-left{
+        margin-bottom: 50px;
+    }
+}
+
+/*  */
+
+
+.head-right-up {
+
+    height: 28vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center !important;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #fff;
+    background-image: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5)), url(../img/offer-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.head-right-down {
+    height: 28vh;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center !important;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #fff;
+    background-image: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5)), url(../img/offer-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.head-right-btn {
+    background-color: transparent;
+    border: 2px solid #fff !important;
+    color: #fff;
+    width: 100px;
+    height: 35px;
+    border: none;
+}

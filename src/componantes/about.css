@@ -1,0 +1,94 @@
+        .about {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .about h1{
+            color: var(--color);
+        }
+        .about h1 span {
+            color: var(--main-color);
+        }
+
+        .about-img {
+            width: 400px;
+            border-radius: 20px;
+            margin-right: 20px;
+        }
+
+        span {
+            color: var(--main-color) !important;
+        }
+
+
+        .About {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .About .about-details {
+            margin-top: -80px;
+            text-align: start;
+            width: 600px;
+            color: var(--color);
+        }
+
+        .About .about-details b {
+            font-size: 30px;
+            
+        }
+
+        .About .about-details p {
+            font-size: 19px; 
+            margin-top: 20px;
+            margin-bottom: 30px !important;
+            color: var(--color) !important;
+        }
+
+        .About .about-details .about-btn {
+            color: var(--main-color);
+            width: 200px !important;
+            height: 50px !important;
+            padding: 15px 70px;
+            align-items: center;
+            justify-content: center;
+            border: none;
+            border: 1px solid var(--main-color);
+            cursor: pointer;
+            transition: 0.5s;
+            text-decoration: none;
+           
+        }
+
+        .About .about-details .about-btn:hover {
+            background-color: var(--main-color);
+            color: #fff;
+        }
+
+        .dark.about{
+            background-color: #fff !important;
+        }
+
+        @media (max-width :768px) {
+            .About {
+                flex-wrap: wrap;
+            }
+
+            .About .about-details {
+                text-align: center;
+                margin-top: 0px;
+            }
+        }
+
+                @media screen and (min-width :768px) and (max-width:1392px) {
+
+                    .About .about-details {
+                            text-align: center;
+                            margin-top: 20px;
+                        }
+                }

@@ -1,0 +1,43 @@
+.cart{
+    background-color: #fff;
+    padding: 10px;
+    background-color: var(--section-bg);
+}
+
+.cart div img{
+    width: 80px;
+    height: 80px;
+}
+
+.cart .proess button{
+    width: 30px;
+    height: 30px;
+    padding-bottom:3px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+    --body-color: #fff;
+}
+.cart .proess span{
+    font-size: 18px;
+}
+
+/*  */
+
+.totall{
+    background-color: #fff;
+    color: black;
+    color: var(--color);
+    background-color: var(--section-bg);
+   
+}
+.price{
+    color: black;
+color: var(--color);
+}

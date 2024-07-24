@@ -1,0 +1,156 @@
+footer {
+    background-color: #3D464D;
+    color: #fff;
+    position: relative !important;
+    overflow-x: hidden;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container {
+    flex-wrap: wrap;
+}
+
+footer .one {
+    width: 250px;
+}
+
+footer .one .icons-1 {
+    align-items: center;
+    width: 250px;
+}
+
+/*  */
+
+footer .tow {
+    width: 220px;
+}
+
+footer .tow .icons-2 {
+    width: 250px;
+}
+
+footer .tow .icons-2 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .tow .icons-2 a:hover {
+    color: #738492;
+    text-decoration-line: underline;
+}
+
+/*  */
+
+
+footer .there{
+    width:390px;
+}
+footer .there div input {
+    width: 250px;
+    height: 40px;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+    padding-bottom: 7px;
+
+}
+
+footer .there div button {
+    width: 70px;
+    height: 40px;
+    border: none;
+    margin-top: 3px;
+    position: absolute;
+    bottom: 271px;
+    background-color: #FFD333;
+    color: #6C757D;
+}
+
+footer .there div .sohial {
+    background-color: #FFD333;
+    padding: 13px 0px 0px 17px;
+    width: 50px;
+    height: 50px;
+    color: #6C757D;
+}
+
+/*  */
+
+.footer {
+    padding: 15px 0px !important;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.footer p span {
+    color: #FFD333 !important;
+}
+
+
+/*  */
+
+@media (max-width :768px) {
+    footer .container {
+        flex-direction: column !important;
+        text-align: left;
+    }
+
+    footer .there div button {
+        width: 70px;
+        height: 40px;
+        border: none;
+        margin-top: 3px;
+        position: absolute;
+        bottom: 358px;
+        background-color: #FFD333;
+        color: #6C757D;
+    }
+
+    .footer div {
+        padding: 15px 0px !important;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .container {
+        flex-wrap: wrap;
+    }   
+}
+
+
+@media screen and (min-width :768px) and (max-width:992px) {
+    footer .there div button {
+        width: 70px;
+        height: 40px;
+        border: none;
+        margin-top: 3px;
+        position: absolute;
+        bottom: 252px !important;
+        background-color: #FFD333;
+        color: #6C757D;
+    }
+
+    .container {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width :992px) and (max-width:1385px) {
+    .container {
+        flex-wrap: wrap;
+    }
+
+    footer .there div button {
+        width: 70px;
+        height: 40px;
+        border: none;
+        margin-top: 3px;
+        position: absolute;
+        bottom: 252px !important;
+        background-color: #FFD333;
+        color: #6C757D;
+    }
+}

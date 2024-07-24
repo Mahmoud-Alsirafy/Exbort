@@ -1,0 +1,26 @@
+.Service {
+    width: 250px;
+    height: 70px;
+    text-align: center;
+    align-items: center;
+    background-color: var(--section-bg);
+    color: var(--body-color);
+    border-radius: 10px;
+}
+
+.Service i {
+    color: var(--main-color);
+    font-size: 40px;
+    margin: 10px 20px 10px 20px;
+}
+
+.Service p {
+    margin-top: 10px;
+    font-size: 20px;
+}
+@media (max-width :768px) {
+    .Service{
+        width: 100%;
+        justify-content: center;
+    }
+}

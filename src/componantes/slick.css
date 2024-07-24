@@ -1,0 +1,25 @@
+.slider2 {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    width: max-content !important;
+}
+
+.slider2 .container {
+    width: max-content !important;
+}
+
+.slider2 .container div img {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+@media (max-width :768px) {
+    .slider2 {
+        margin: auto !important;
+    }
+
+}

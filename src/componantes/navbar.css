@@ -1,0 +1,33 @@
+nav {
+    background-color: #3d464d;
+    color: #fff;
+}
+
+nav a {
+    color: #fff !important;
+    transition: 0.5 !important;
+    font-size: 18px !important;
+}
+
+nav a:hover{
+    color: var(--main-color) !important;
+}
+nav .navbar-brand{
+    font-size: 25px !important;
+}
+
+nav a span {
+    color: var(--main-color);
+}
+nav i {
+    color: var(--main-color);
+    font-size: 20px !important;
+}
+.Shop{
+    color: var(--main-color) !important;
+}
+
+.dropdown-menu{
+    background-color: var(--main-color) !important;
+    padding: 10px !important;
+}
